@@ -1,0 +1,145 @@
+body {
+    background: linear-gradient(-45deg,#000336, #000220, #000004);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} 
+
+
+
+hr.solid {
+    border-top: 3px solid black;
+    transition-delay: 2ms;
+  }
+
+a { 
+      color: white;
+      transition-delay: 2ms;
+      font-size: 30px;
+      text-decoration: none;
+}
+
+
+/*
+ABOUT ME SECTION
+*/
+#aboutmetext {
+    float: left;
+    width: 50%
+}
+
+#headshot { 
+    float: right;
+    width: 50%
+}
+
+#aboutme {
+    width: 500px ;
+    max-width: 200% ;
+    margin-left: auto ;
+    margin-right: auto ;
+  }
+#aboutme img {
+    width: 47%;
+    height: auto;
+    border: 5px solid black;
+
+}
+#aboutme p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 51%;
+    
+}
+* {
+    font-family: 'Playfair Display', serif;  
+    color: white;
+}
+
+.about-me a { 
+    color: white;
+    transition-delay: 2ms;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    transition-delay: 2ms;
+}
+
+.experience {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.experience img{
+    width: auto;
+    height: 250px;
+    object-fit: cover;
+}
+.ai_lab { 
+    border: 5px solid white;
+    border-width: thin;
+}
+
+
+.niwc { 
+    border: 5px solid white;
+    border-width: thin;
+}
+
+
+
+.sdwp { 
+    border: 5px solid white;
+    border-width: thin;
+}
+
+.position {
+    display: grid;
+    border: 5px solid white;
+    border-width: thin;
+}
+
+.description {
+    display: grid;
+    border: 5px solid white;
+    border-width: thin;
+}
+
+.project {
+    display: grid;
+    border: 5px solid white;
+    border-width: thin;
+}
+
+
+.project a { 
+    color: white;
+    transition-delay: 2ms;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.experience a { 
+    color: white;
+    transition-delay: 2ms;
+    font-size: 25px;
+    text-decoration: underline;
+}
